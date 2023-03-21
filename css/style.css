@@ -16,6 +16,10 @@ body{
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 
 /* regole header */
 
@@ -53,7 +57,7 @@ header{
     margin-bottom:  20px; ;
 }
 
-.button{
+.button {
     border-radius: 28px;
     font-size: 20px;
     padding: 16px 32px;
