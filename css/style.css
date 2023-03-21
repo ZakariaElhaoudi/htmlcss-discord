@@ -6,7 +6,6 @@
 }
 a, .lang{
     color: white;
-    font-size: 5px;
     text-decoration: none;
 
 }
@@ -38,7 +37,7 @@ header{
     justify-content: space-around;
     padding-top: 30px;
     flex-wrap: wrap;
-
+    align-items: center;
 }
 
 
@@ -101,23 +100,23 @@ section{
 
 .settler{
     display: flex;
-    flex-wrap: wrap;
     width: 70%;
     margin:  auto ;
     justify-content: space-between;
-    align-items: flex-start;
     display: flex;
-    padding-top: 50px;
-    height: 600px;
+    padding: 100px 0;
     align-items: center;
 
+}
+
+img{
+    max-width: 100%;
 }
 
 .settler-4{
     width: 70%;
     margin: auto;
-    padding-bottom: 50px ;
-    padding-top: 50px;
+    padding: 100px 0;
     text-align: center;
 } 
 
@@ -131,7 +130,7 @@ section{
 }
 
 .column-text {
-    width: 35%;
+    width: 40%;
 }
 
 
@@ -146,6 +145,7 @@ footer{
     width: 70%;
     margin: auto;
     color: white;
+    padding: 30px 0;
     
 }
 
@@ -154,8 +154,8 @@ footer{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
     text-align: left;
+    border-bottom: 2px solid white;
 }
 
 .link-footer h2, h4 {
@@ -182,13 +182,7 @@ ul{
     list-style: none;
 }
 
-.title-foote{
-    width: 25%;
-}
 
-.menu-link-footer{
-    width: 20px;;
-}
  
 
 
