@@ -93,10 +93,24 @@ section{
 }
 
 .bg-color{
-    /* background-color: #f6f6f6 ; */
-    background-image: url(../img/wave.svg);
-    background-size: contain;
+    /* background-color: ; */
+    /* background-image: url(../img/wave.svg);
+    background-size: 100vh cover; */
+    position: relative;
 
+}
+
+.bg-color3{
+    background-color: #f6f6f6 ;
+}
+
+.wave{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
 
 }
 
