@@ -6,7 +6,7 @@
 }
 a{
     text-decoration: none;
-    color: white;
+
 }
 
 body{
@@ -19,7 +19,7 @@ body{
 
 header{
     height: 600px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -30,6 +30,11 @@ header{
     flex-wrap: wrap;
 
 
+}
+#menu-header  a {
+    color: white;
+    font-size: 5px;
+    
 }
 .link-menu{
     display: flex;
@@ -71,32 +76,46 @@ header{
 /* regole corpo centrale */
 
 .conteiner{
-    /* height: 800px;
-    width: 80%; */
-    margin: 50px auto;
+  
+    margin: auto;
     
 }
 
 section{
     width: 100%;
+    background-color:white;
 
 }
+
+.bg-color{
+    background-color:#fff ;
+
+}
+
 .settler{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     margin:  auto ;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
+    display: flex;
+    padding-top: 50px;
+    height: 600px;
+    align-items: center;
+
+}
+.settler > h2, p {
+    margin-top: 20px ;
 
 }
 
 .column-img {
-    width: 45%;
+    width: 60%;
 }
 
 .column-text {
-    width: 45%;
+    width: 35%;
 }
 
 
@@ -154,44 +173,24 @@ footer{
     background-color: brown;
 }
 
-.conteiner{
+/* .conteiner{
 
-    margin: 50px auto;
+    margin:  auto;
     border: solid 2px black;
     
-}
+} */
 
-.settler {
-    display: flex;
-    /* margin: 50px; */
-    background-color: pink;
-    height: 600px;
-    align-items: center;
-    border: solid 2px black;
 
-}
 .settler-2{
     display: flex;
     width: 100%;
-    /* margin: 50px; */
+
     background-color: green;
     height: 600px;
     align-items: center;
     border: solid 2px black;
-
-}
-.column-img {
-    width: 45%;
-    background-color: aquamarine;
-    
-
-
-}
-.column-text {
-    width: 45%;
-    background-color: aquamarine;
-    /* height: 100px; */
+} 
 
 
 
-}
+
