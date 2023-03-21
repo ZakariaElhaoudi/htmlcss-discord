@@ -20,6 +20,10 @@ button:hover{
     cursor: pointer;
 }
 
+i:hover{
+    cursor: pointer;
+}
+
 
 /* regole header */
 
