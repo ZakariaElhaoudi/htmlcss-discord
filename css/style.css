@@ -1,0 +1,197 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    text-align: center;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+/* regole header */
+
+header{
+    height: 600px;
+    margin-bottom: 60px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+#menu-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    flex-wrap: wrap;
+
+
+}
+.link-menu{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+#title-bottom{
+    width: 50%;
+    margin: auto;
+    padding-top: 200px;
+    color: white;
+}
+#title-bottom > h1, p, button{
+    margin-bottom:  20px; ;
+}
+
+.button{
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    
+}
+
+.jumbo{
+    border-radius: 28px;
+    font-size: 18px;
+    padding: 8px 18px;
+}
+
+.dark{
+    background-color: #23272a;
+    color: white;
+
+}
+/* regole corpo centrale */
+
+.conteiner{
+    /* height: 800px;
+    width: 80%; */
+    margin: 50px auto;
+    
+}
+
+section{
+    width: 100%;
+
+}
+.settler{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:  auto ;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.column-img {
+    width: 45%;
+}
+
+.column-text {
+    width: 45%;
+}
+
+
+/* regole footer  */
+footer{
+    height: 600px;
+    width: 100%;  
+}
+
+.menu-footer{
+    width: 70%;
+    margin: auto;
+}
+
+.link-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 2px black;
+    width: 100%;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+
+
+/* REGOLE DEBUG */
+
+/* header{
+    height: 600px;
+    border: solid 2px black;
+    background-color: gray;
+} */
+
+/* #title-bottom{
+   
+     border: solid 2px black;
+    height: 200px; 
+    width: 60%;
+    margin: 200px 100px auto;
+    background-color: red; 
+} */
+
+footer{
+    background-color: brown;
+}
+
+.conteiner{
+
+    margin: 50px auto;
+    border: solid 2px black;
+    
+}
+
+.settler {
+    display: flex;
+    /* margin: 50px; */
+    background-color: pink;
+    height: 600px;
+    align-items: center;
+    border: solid 2px black;
+
+}
+.settler-2{
+    display: flex;
+    width: 100%;
+    /* margin: 50px; */
+    background-color: green;
+    height: 600px;
+    align-items: center;
+    border: solid 2px black;
+
+}
+.column-img {
+    width: 45%;
+    background-color: aquamarine;
+    
+
+
+}
+.column-text {
+    width: 45%;
+    background-color: aquamarine;
+    /* height: 100px; */
+
+
+
+}
