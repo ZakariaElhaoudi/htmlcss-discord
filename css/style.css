@@ -28,7 +28,6 @@ i:hover{
 
 header{
     height: 600px;
-    /* margin-bottom: 60px; */
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -92,26 +91,24 @@ section{
     padding-bottom: 100px ;
 }
 
-.bg-color{
-    /* background-color: ; */
-    /* background-image: url(../img/wave.svg);
-    background-size: 100vh cover; */
-    position: relative;
-
-}
 
 .bg-color3{
     background-color: #f6f6f6 ;
 }
 
-.wave{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: auto;
 
+.wave{
+    max-width: 100%;
+    width: 100%;
+    background-image: url(../img/wave.svg);
+    height: 100px;
+    margin: -20;
+    display: block;
+    
+}
+
+.rotate{
+    transform: rotate(3.142rad);
 }
 
 .settler{
@@ -123,6 +120,11 @@ section{
     padding: 100px 0;
     align-items: center;
 
+}
+
+.bg-title{
+    margin-top: -20px;
+    padding-bottom: 20px;
 }
 
 img{
@@ -152,7 +154,6 @@ img{
 
 /* regole footer  */
 footer{
-    /* height: 600px; */
     width: 100%;  
     background-color:  #23272a;
 }
